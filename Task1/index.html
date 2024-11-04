@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripix - Explore India</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Tripix</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to Tripix</h1>
+            <p>Discover the wonders of India with us!</p>
+        </section>
+        <section id="booking">
+            <h2>Book Your Trip</h2>
+            <form>
+                <div>
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" required>
+                </div>
+                <div>
+                    <label for="departure">Departure Date:</label>
+                    <input type="date" id="departure" name="departure" required>
+                </div>
+                <div>
+                    <label for="return">Return Date:</label>
+                    <input type="date" id="return" name="return" required>
+                </div>
+                <div>
+                    <label for="passengers">Number of Passengers:</label>
+                    <input type="number" id="passengers" name="passengers" required>
+                </div>
+                <button type="submit">Search Flights</button>
+            </form>
+        </section>
+
+        <section id="destinations">
+            <h2>Popular Destinations</h2>
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <img src="Taj Mahal.jpeg" alt="Taj Mahal">
+                    <h3>Taj Mahal, Agra</h3>
+                    <p>A symbol of love and one of the Seven Wonders of the World.</p>
+                </div>
+                <div class="destination-card">
+                    <img src="Kerala Backwaters.jpg" alt="Kerala Backwaters">
+                    <h3>Kerala Backwaters</h3>
+                    <p>Serene waterways surrounded by lush greenery.</p>
+                </div>
+                <div class="destination-card">
+                    <img src="Varanasi-Ghats.jpg" alt="Varanasi Ghats">
+                    <h3>Varanasi Ghats</h3>
+                    <p>Ancient spiritual center on the banks of the Ganges.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Tripix</h2>
+            <p>Tripix is your gateway to exploring the diverse and enchanting landscapes of India. From ancient temples to bustling cities, we help you discover the best of India.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Tripix. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
